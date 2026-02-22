@@ -3,10 +3,8 @@ import string
 
 
 def password_generator():
-    print("="*20)
     print("PASSWORD GENERATOR")
-    print("="*20)
-    
+  
     while True:
         try:
             # to get validation password length
@@ -54,10 +52,12 @@ def password_generator():
     # Convert list to string
     final_password = ''.join(password)
     
-    print("\n" + "="*40)
+    print("=========================================")
     print(f" Generated Password: {final_password}")
     print(f" Password Length: {length}")
-    print("="*40)
+    print("=========================================")
+
+    
 
 
 if __name__ == "__main__":
