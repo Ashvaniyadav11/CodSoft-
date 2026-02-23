@@ -1,7 +1,7 @@
-import random
+import random 
 
 choices = ["rock", "paper", "scissors"]
-//while is using
+while is using
 while True:
     print("\n--- Rock Paper Scissors Game  ---")
     print("1. Rock")
